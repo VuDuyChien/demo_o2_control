@@ -149,7 +149,7 @@ export const handleControlInterfaceMessage = (client, data) => {
           message: {
             accid: "WF_TRON1A_341",
             event: "camera-control",
-            action: "request_twist",
+            action: "request_zoom",
             data: {
               direction,
             },
